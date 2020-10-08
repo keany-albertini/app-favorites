@@ -1,0 +1,95 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+ul{	
+	list-style-type:none;
+	display:flex;
+	justify-content:center;
+}
+header{
+	width: 100%;
+	position: fixed;
+	background-color: grey;
+	justify-content: center;
+}
+
+li a{
+
+	text-decoration:none;
+	font-size:45px;
+	color:black;
+	margin-right:8px;
+	background-color:transparent;
+	padding:2px 6px 2px 6px;
+	border-radius:5px;
+	font-family:"Verdana";
+	font-weight:bold;
+}
+body{
+	background-color:	#DCDCDC;
+}
+.contenu{
+	
+	display: flex;
+	justify-content: space-around;
+	color: white;
+
+}
+
+.contenu img {
+	width: 150px;
+}
+.logo2{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.net{
+	text-decoration:inherit;
+	font-size:1.1em;
+	font-family:Verdana;
+	color:white;
+	margin-right:8px;
+	background-color:black;
+	padding:2px 6px 2px 6px;
+	border-radius:5px;
+	font-family:"Verdana";
+	font-weight:bold;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+.you{
+	text-decoration:none;
+	font-size:1.1em;
+	color:black;
+	margin-right:8px;
+	background-color:white;
+	padding:2px 6px 2px 6px;
+	border-radius:5px;
+	font-family:"Verdana";
+	font-weight:bold;
+	width: 150px;
+}
+.tik{
+	text-decoration:none;
+	font-size:1.1em;
+	color:black;
+	margin-right:8px;
+	background-color:white;
+	padding:2px 6px 2px 6px;
+	border-radius:5px;
+	font-family:"Verdana";
+	font-weight:bold;
+	width: 150px;
+}
+
+.logo1{
+text-align: center;
+
+	background-color: black;
+	border-radius: 20px;
+	border: 2px solid;
+	border-color: white;
+	box-shadow: 5px 10px 10px grey;
+}

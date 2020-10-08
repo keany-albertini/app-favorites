@@ -1,0 +1,138 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+header{
+	z-index: 3;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background: linear-gradient(grey,  #ccc);
+	justify-content:center;
+}
+body{background-color:  #ccc;
+
+}
+
+ul{	
+	list-style-type:none;
+	display:flex;
+	justify-content:space-between;
+}
+
+.tube a{
+	font-family:Lucida Console;
+	text-decoration:none;
+	color:black;
+	background-color:transparent;
+	font-weight:bold;
+}
+
+.net a{
+
+	font-family:Lucida Console;
+	text-decoration:none;
+	color:black;
+	background-color:transparent;
+	font-weight:bold;
+}
+
+.containeur{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.pinte{
+	
+	align-content: center;
+	padding-top: 100px;
+	width: 300px;
+}
+
+.slogan{
+	font-size: 20px;
+	padding-top: 300px;
+	font-family: Lucida Console;
+	text-align: center;
+
+}
+
+.conteneur{
+	display: flex;
+	justify-content: space-between;
+}
+
+.pic{
+	margin-top:200px;
+	display: flex;
+}
+.para{
+	border:solid 2px;
+	height: 30px;
+	border-radius: 30px;
+	border-color: black;
+	color: black;
+	background-color: white;
+	box-shadow: 6px 4px 4px ;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 20px;
+
+}
+
+.picliste{
+	border:5px solid black;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 20px;
+	width: 300px;
+	height: 350px;
+}
+
+
+.picliste:hover{
+  display: block;
+  background: black;
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  transition: 1s;
+  
+}
+
+.imgachat{
+	width: 150px;
+}
+
+.tel {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 30px;
+	border-bottom: 15px black solid ;
+	border-bottom-style: dashed;
+
+}
+.lien{
+	font-size: 30px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+.foot{
+	display: flex;
+	justify-content:space-between;
+	background: linear-gradient( #ccc,  grey);
+}
+
+.reseau{
+	animation: bounce 0.35s ease infinite alternate;
+	width: 100px;
+	padding-top: 50px;
+}
+@keyframes bounce{
+     from {transform: translateY(0);}
+     to   {transform: translateY(-20px);}
+}
